@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dólares a Bitcoin y Colones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5 rounded p-4">
+        <h1 class="mb-4">Conversor de Dólares a Bitcoin y Colones</h1>
+
+        <div class="form-group">
+            <label for="dollar-amount">Monto en Dólares:</label>
+            <input type="number" class="form-control" id="dollar-amount" placeholder="Ingrese el monto en dólares">
+        </div>
+
+        <button class="btn btn-primary mt-2" id="convert-button">Convertir</button>
+
+        <div class="mt-4">
+            <p>Valor en Bitcoin: <span id="bitcoin-value"></span></p>
+            <p>Valor en Colones: <span id="colones-value"></span></p>
+        </div>
+    </div>
+
+    <!-- Agrega el enlace al archivo JavaScript donde se encuentra el código de WebSocket -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(60, 87, 55);
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(224, 232, 235);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#bitcoin-value,
+#colones-value {
+    font-size: 18px;
+    /* Cambia el tamaño del texto */
+    font-weight: bold;
+    /* Hace que el texto sea más audaz */
+    margin-top: 10px;
+    /* Agrega margen superior para separar los resultados */
+}
